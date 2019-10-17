@@ -1,0 +1,144 @@
+/* color palette: off-white #f4f3f3; gray #dfdfdf; sea foam #bfd8d5; periwinkle b1bed5 */
+/* 
+    font-family: 'Fjalla One', Helvetica, sans-serif;
+    font-family: 'Noto Sans', Helvetica, sans-serif;
+*/
+/* font scale:   3.052em (48.83px) 
+                 2.441em (39.06px) 
+                 1.953em (31.25px) 
+                 1.563em (25.00px) 
+                 1.25em (20.00px) 
+                 1em (16.00px) 
+                 0.8em (12.80px) 
+                 0.64em (10.24px) 
+                 0.512em (8.19px) 
+        Link: https://type-scale.com/?size=16&scale=1.250&text=A%20Spooky%20Type%20Scale&font=Fjalla%20One&fontweight=400&bodyfont=Poppins&bodyfontweight=400&lineheight=1.45&backgroundcolor=white&fontcolor=%23333&preview=false
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#container {
+    overflow: hidden;
+    background-color: #F4F3F3;
+}
+
+div.header {
+    padding: 20px;
+}
+
+div.block {
+    margin: 20px;
+    padding: 20px;
+}
+
+div.intro {
+    background-color: #dfdfdf;
+    clear: both;
+    height: 300px;
+    width: 95%;
+}
+
+img.intro {
+    float: left;
+    margin-right: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+div.professional {
+    background-color: #BFD8D5;
+    clear: both;
+    height: 300px;
+    width: 95%;
+}
+
+.writing {
+    background-color: #BFD8D5;
+    height: 300px;
+    width: 50%;
+    float: left;
+}
+
+.article {
+    background-color: #b1bed5;
+    height: 130px;
+    width: 40%;
+    float: left;
+}
+
+.photography {
+    background-color: #BFD8D5;
+    height: 200px;
+    width: 45%;
+    float: left;
+}
+
+.photo {
+    background-color: #b1bed5;
+    height: 200px;
+    width: 45%;
+    float: left;
+}
+
+.arttext {
+    background-color: #BFD8D5;
+    height: 300px;
+    width: 28%;
+    float: left;
+    margin: 20px 1.5%; 
+}
+
+.artwork {
+    background-color: #b1bed5;
+    height: 300px;
+    width: 28%;
+    float: left;
+    margin: 20px 1.5%;
+}
+
+.social {
+    background-color: #BFD8D5;
+    height: 150px;
+    width: 50%;
+    margin: 0 auto;
+    clear: both;
+}
+
+body {
+    font-family: 'Noto Sans', Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3, ul {
+    font-family: 'Fjalla One', Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 2.441em;
+}
+
+h2 {
+    font-size: 1.563em;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+ul {
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
