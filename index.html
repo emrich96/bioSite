@@ -14,58 +14,68 @@
      
       <!-- Each paragraph will be in separate blocks w/ classes and IDs -->
       <!-- Information will be short, sweet, and to-the-point -->
-    <div class=header>   
+    <header>   
        <h1>E Jill Riley</h1>
-        <h3><span>Some sort of intro here</span></h3>
-    </div>
+    </header>
+        <nav>
+           <ul>
+            <li><a href="#professional" class="header">Professional</a></li>
+            <li><a href="#writing" class="header">Writing</a></li>
+            <li><a href="#photography" class="header">Photography</a></li>
+            <li><a href="#arttext" class="header">Art</a></li>
+            </ul>
+        </nav>
         <!-- profile photo here -->
-    <div id="container">
-        <div class="page">
+    <main>
+        <div id="page" class="page">
 
             <div class="intro block">
                 <p><img src="images/profile.jpg" alt="profile" class="intro" />A Korean-born American with an Irish last name and French surname, a love of the German language, and an all-around confusing backstory. Married, mother of four. </p>
             </div>
 
-            <div class="professional block">
+            <div id="professional" class="professional block">
                 <h2>Professional Works</h2>
                 <p>Masters in Education. Business consultant, minister, national speaker, teacher, writer</p>
             </div>
 
-            <div class="writing block">
+            <div id="writing" class="writing block">
                 <h2>Writing</h2>
                 <p>Articles, blog, book</p>
             </div>
             
             <div class="article block">
-                <h3>Article 1</h3>
+                <h3>A Shot at Redemption</h3>
+                <p>To see David Washington standing today in front of his former dope house in Chicago’s Roseland neighborhood, it is difficult to imagine the gangs and violence of his teen years. Yet the clues to his past are still there. Washington, a Covenant pastor <a href="https://covenantcompanion.com/2017/10/02/reimagine-that-church-planting-a-chance-at-redemption/" class="articlelink">...</a></p>
             </div>
             
             <div class="article block">
-                <h3>Article 2</h3>
+                <h3>Blog - A realistic self image</h3>
+                <p>I live in hiking and backpacking country. In my mind I am a hiker. I am cool and sporty like the people in the Patagonia ads. Lean, athletic and tan I embark on outdoor adventures, my happy face tanned, barely glistening with sweat. My legs are capable <a href="http://jillriley.com/a-realistic-self-image" class="articlelink">...</a></p>
             </div>
             
             <div class="photo block">
                 <h3>Image</h3>
             </div>
 
-            <div class="photography block">
+            <div id="photography" class="photography block">
                 <h2>Photography</h2>
                 <!-- will be mostly images -->
                 <p>Photography: weddings, family/seniorphotos, events, landscape.</p>
             </div>
             
             <div class="photo block">
-                <h3>Image</h3>
+            <h3>Image</h3>
             </div>
+              
             <div class="photo block">
                 <h3>Image</h3>
             </div>
-            
+               
                 <div class="artwork block">
                     <h3>Artwork 1</h3>
                 </div>
 
-                <div class="arttext block">
+                <div id="arttext" class="arttext block">
                     <h2>Art</h2>
                     <!-- will also be mostly images -->
                     <p>Mediums: pencil, pen, watercolor</p>
@@ -74,27 +84,32 @@
                 <div class="artwork block">
                     <h3>Artwork 2</h3>
                 </div>
+                
+            <a href="#page" id="pagetop">Back to top</a>
 
+        </div>
+    
+    </main>
+    
+    <footer>
             <div class="social block">
                 <h2>Social Media</h2>
             <!-- Might make this a traditional sidebar instead of placing on bottom -->
             <!-- will NOT be adding a contact section for privacy reasons -->
                 <ul>
-                    <li><a href="http://jillriley.com/">
+                    <li><a href="http://jillriley.com/" target="_blank" class="social">
                         Website/Blog</a></li>
-                    <li><a href="https://podcasts.apple.com/us/podcast/post-traumatic-faith/id1457363261">
+                    <li><a href="https://podcasts.apple.com/us/podcast/post-traumatic-faith/id1457363261" target= "_blank" class="social">
                         Podcast</a></li>
-                    <li><a href="https://www.facebook.com/jillriley.author/">
+                    <li><a href="https://www.facebook.com/jillriley.author/" target="_blank" class="social">
                         Facebook</a></li>
-                    <li><a href="https://twitter.com/ejillriley?lang=en">
+                    <li><a href="https://twitter.com/ejillriley?lang=en" target="_blank" class="social">
                         Twitter</a></li>
-                    <li><a href="https://www.instagram.com/jillriley.author/">
+                    <li><a href="https://www.instagram.com/jillriley.author/" target="_blank" class="social">
                         Instagram</a></li>
                 </ul>
             </div>
-        </div>
-        <a href="#container" id="pagetop">Back to top</a>
-    </div>
+    </footer>
     
     </body>
 </html>

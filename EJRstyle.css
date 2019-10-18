@@ -21,77 +21,83 @@
 }
 
 .page {
-    width: 900px;
+    width: 960px;
     margin: 0 auto;
 }
 
-#container {
+main {
     overflow: hidden;
     background-color: #F4F3F3;
 }
 
-div.header {
+header {
+    background-color: #b1bed5;
     padding: 20px;
 }
 
-div.block {
+nav {
+    text-align: center;
     margin: 20px;
+}
+
+div.block {
     padding: 20px;
+    margin: 10px;
 }
 
 div.intro {
     background-color: #dfdfdf;
-    clear: both;
     height: 300px;
-    width: 95%;
+    width: 940px;
+    float: left;
 }
 
 img.intro {
     float: left;
     margin-right: 10px;
-    width: 200px;
+    width: 300px;
     height: 200px;
 }
 
 div.professional {
     background-color: #BFD8D5;
-    clear: both;
     height: 300px;
-    width: 95%;
+    width: 940px;
+    float: left;
 }
 
 .writing {
     background-color: #BFD8D5;
-    height: 300px;
-    width: 50%;
+    height: 420px;
+    width: 540px;
     float: left;
 }
 
 .article {
     background-color: #b1bed5;
-    height: 130px;
-    width: 40%;
+    height: 200px;
+    width: 380px;
     float: left;
 }
 
 .photography {
     background-color: #BFD8D5;
     height: 200px;
-    width: 45%;
+    width: 460px;
     float: left;
 }
 
 .photo {
     background-color: #b1bed5;
+    width: 460px;
     height: 200px;
-    width: 45%;
     float: left;
 }
 
 .arttext {
     background-color: #BFD8D5;
     height: 300px;
-    width: 28%;
+    width: 300px;
     float: left;
     margin: 20px 1.5%; 
 }
@@ -99,7 +105,7 @@ div.professional {
 .artwork {
     background-color: #b1bed5;
     height: 300px;
-    width: 28%;
+    width: 300px;
     float: left;
     margin: 20px 1.5%;
 }
@@ -107,9 +113,14 @@ div.professional {
 .social {
     background-color: #BFD8D5;
     height: 150px;
-    width: 50%;
     margin: 0 auto;
     clear: both;
+}
+
+#pagetop {
+    clear: both;
+    display: block;
+    text-align: center;
 }
 
 body {
@@ -141,4 +152,32 @@ ul {
 li {
     display: inline;
     margin-right: 10px;
+}
+
+footer {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a.header:hover {
+    color: #dfdfdf;
+}
+
+a.header:visited {
+    color: #dfdfdf;
+}
+
+a.social:hover {
+    color: #dfdfdf;
+}
+
+a.social:visited {
+    color: #dfdfdf;
 }
