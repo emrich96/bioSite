@@ -37,7 +37,8 @@ header {
 
 nav {
     text-align: center;
-    margin: 20px;
+    margin-top: 10px;
+    font-size: 1.25em;
 }
 
 div.block {
@@ -50,18 +51,18 @@ div.intro {
     height: 300px;
     width: 940px;
     float: left;
+    margin-top: 20px;
 }
 
 img.intro {
     float: left;
-    margin-right: 10px;
-    width: 300px;
-    height: 200px;
+    margin-right: 20px;
+    height: 260px;
 }
 
 div.professional {
     background-color: #BFD8D5;
-    height: 300px;
+    height: 150px;
     width: 940px;
     float: left;
 }
@@ -81,46 +82,58 @@ div.professional {
 }
 
 .photography {
-    background-color: #BFD8D5;
-    height: 200px;
-    width: 460px;
+    background-color: #bfd8d5;
+    height: 343px;
+    width: 368px;
     float: left;
+    clear: left;
 }
 
-.photo {
-    background-color: #b1bed5;
-    width: 460px;
-    height: 200px;
-    float: left;
+img#howell1 {
+    width: 552px;
+    float: right;
+    margin: 10px;
 }
 
-.arttext {
+img#howell2 {
+    width: 368px;
+    float: left;
+    clear: left;
+    margin: 10px;
+}
+
+img#shelby {
+    width: 552px;
+    float: right;
+    margin: 10px;
+}
+
+img#taryn {
+    width: 368px;
+    float: left;
+    margin: 10px;
+}
+
+div.arttext {
     background-color: #BFD8D5;
     height: 300px;
     width: 300px;
     float: left;
-    margin: 20px 1.5%; 
 }
 
-.artwork {
+div.artwork1 {
     background-color: #b1bed5;
     height: 300px;
     width: 300px;
     float: left;
-    margin: 20px 1.5%;
+    clear: left;
 }
 
-.social {
-    background-color: #BFD8D5;
-    height: 150px;
-    margin: 0 auto;
-    clear: both;
-}
-
-#pagetop {
-    clear: both;
-    display: block;
-    text-align: center;
+div.artwork2 {
+    background-color: #b1bed5;
+    height: 300px;
+    width: 300px;
+    float: left;
 }
 
 body {
@@ -133,7 +146,7 @@ h1, h2, h3, ul {
 }
 
 h1 {
-    font-size: 2.441em;
+    font-size: 3.052em;
 }
 
 h2 {
@@ -156,6 +169,16 @@ li {
 
 footer {
     text-align: center;
+    background-color: #BFD8D5;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#pagetop {
+    clear: both;
+    display: block;
+    text-align: center;
+    margin: 10px;
 }
 
 a {
@@ -166,12 +189,20 @@ a:link {
     color: black;
 }
 
-a.header:hover {
+a.articlelink, a.maglink:hover {
+    text-decoration: underline;
+}
+
+a.articlelink, a.maglink:visited {
+    color: black;
+}
+
+a.nav:hover {
     color: #dfdfdf;
 }
 
-a.header:visited {
-    color: #dfdfdf;
+a.nav:visited {
+    color: black;
 }
 
 a.social:hover {
