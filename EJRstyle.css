@@ -32,7 +32,7 @@ main {
 
 header {
     background-color: #b1bed5;
-    padding: 20px;
+    padding: 30px 20px 20px 60px;
 }
 
 nav {
@@ -189,11 +189,11 @@ a:link {
     color: black;
 }
 
-a.articlelink, a.maglink:hover {
+a.articlelink:hover, a.maglink:hover {
     text-decoration: underline;
 }
 
-a.articlelink, a.maglink:visited {
+a.articlelink:visited, a.maglink:visited {
     color: black;
 }
 
