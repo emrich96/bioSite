@@ -181,6 +181,10 @@ footer {
     margin: 10px;
 }
 
+#pagetop:visited {
+    color: black;
+}
+
 img.icon {
     width: 40px;
     height: 40px;
