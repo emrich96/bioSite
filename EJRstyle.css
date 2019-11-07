@@ -116,23 +116,21 @@ img#taryn {
 
 div.arttext {
     background-color: #BFD8D5;
-    height: 300px;
-    width: 300px;
+    height: 401px;
+    width: 334.4px;
     float: left;
 }
 
-div.artwork1 {
-    background-color: #b1bed5;
-    height: 300px;
-    width: 300px;
+img#art1 {
+    height: 401px;
+    margin: 10px;
     float: left;
-    clear: left;
+    clear: both;
 }
 
-div.artwork2 {
-    background-color: #b1bed5;
-    height: 300px;
+img#art2 {
     width: 300px;
+    margin: 10px;
     float: left;
 }
 
@@ -198,26 +196,16 @@ a:link {
     color: black;
 }
 
-a.articlelink:hover, a.maglink:hover {
-    text-decoration: underline;
+a:visited {
+    color: black;
 }
 
-a.articlelink:visited, a.maglink:visited {
-    color: black;
+a.articlelink:hover, a.maglink:hover {
+    text-decoration: underline;
 }
 
 a.nav:hover {
     color: #dfdfdf;
 }
 
-a.nav:visited {
-    color: black;
-}
-
-a.social:hover {
-    color: #dfdfdf;
-}
-
-a.social:visited {
-    color: #dfdfdf;
-}
+a.social:hover {}
